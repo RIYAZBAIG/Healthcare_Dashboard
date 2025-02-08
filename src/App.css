@@ -1,0 +1,22 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.overview-section,
+.charts-section {
+  margin: 20px 0;
+}
+
+.charts-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.chart-container {
+  width: 45%;
+  margin: 10px 0;
+}
