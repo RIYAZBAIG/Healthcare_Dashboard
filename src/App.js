@@ -5,6 +5,9 @@ import BedUsageChart from "./Components/BedUsageChart";
 import VisitLineChart from "./Components/VisitLineChart";
 import PatientRecoveryChart from "./Components/PatientRecoveryChart";
 import PatientRecoveryBubbleChart from "./Components/PatientRecoveryBubbleChart";
+import FetchData from "./Components/FetchData";
+import TodoList from "./Components/TodoList";
+import Counter from "./Components/Counter";
 
 
 function App() {
@@ -12,20 +15,20 @@ function App() {
     <div className="dashboard-container">
       <h1>Healthcare Dashboard</h1>
       <div className="overview-section">
-        <PatientOverview/>
+        <PatientOverview />
       </div>
       <div className="charts-section">
-        <BedUsageChart/>
-        <VisitLineChart/>
+        <BedUsageChart />
+        <VisitLineChart />
       </div>
       <div className="charts-section">
-       <PatientRecoveryChart/>
-       <PatientRecoveryBubbleChart/>
+        <PatientRecoveryChart />
+        <PatientRecoveryBubbleChart />
       </div>
-      
-  
+      <TodoList />
+      <Counter />
+      <FetchData />
     </div>
   );
 }
-
 export default App;
