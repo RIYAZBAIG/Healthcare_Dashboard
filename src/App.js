@@ -3,6 +3,8 @@ import "./App.css";
 import PatientOverview from "./Components/PatientOverview";
 import BedUsageChart from "./Components/BedUsageChart";
 import VisitLineChart from "./Components/VisitLineChart";
+import PatientRecoveryChart from "./Components/PatientRecoveryChart";
+import PatientRecoveryBubbleChart from "./Components/PatientRecoveryBubbleChart";
 
 
 function App() {
@@ -16,6 +18,12 @@ function App() {
         <BedUsageChart/>
         <VisitLineChart/>
       </div>
+      <div className="charts-section">
+       <PatientRecoveryChart/>
+       <PatientRecoveryBubbleChart/>
+      </div>
+      
+  
     </div>
   );
 }
